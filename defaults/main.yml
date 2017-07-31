@@ -26,6 +26,9 @@ vsftpd_service_state: started
 vsftpd_key_file: ssl-cert-snakeoil.key
 # default ssl cert
 vsftpd_cert_file: ssl-cert-snakeoil.pem
+# userlist
+vsftpd_userlist: no
+vsftpd_userlist_path: '/etc/vsftpd.user_list'
 # config variables
 vsftpd_config: {}
 # config template to install, relative to the ansible repository root
